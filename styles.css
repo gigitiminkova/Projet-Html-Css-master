@@ -1,0 +1,191 @@
+/* =================== STYLES GÉNÉRAUX =================== */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+
+/* =================== EN-TÊTE =================== */
+.header {
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#sous-titre {
+  font-size: 1.3rem;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+} 
+
+/* =================== NAVIGATION =================== */
+.navbar {
+  padding: 1rem 0;
+  color: #7c3aed;
+}
+
+.nav-list {
+  list-style: none;               /* supprime les puces */
+  margin: 0;
+  padding: 0;
+  display: flex;                  /* affichage horizontal */
+  justify-content: center;        /* centre le menu */
+  align-items: center;
+  gap: 3rem;                      /* espace entre les liens */
+}
+
+.nav-list a {
+  color: #7c3aed;                   /* texte blanc */
+  text-decoration: none;          /* pas de soulignement */
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #000000;      
+}
+
+/* =================== SECTIONS =================== */
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  text-align: center;
+  color: #7c3aed;
+}
+
+#cv {
+  text-align: center;
+}
+
+
+/* =================== TABLEAU =================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+th, td {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #7c3aed;
+  color: white;
+}
+
+/* =================== FORMULAIRE =================== */
+form {
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #5b21b6;
+}
+
+/* =================== IMAGE & VIDÉO =================== */
+img {
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+iframe, audio {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+/* =================== PIED DE PAGE =================== */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #111;
+  color: white;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* =================== EFFETS SUPPLÉMENTAIRES =================== */
+section:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+a:focus, button:focus {
+  outline: 2px solid #9333ea;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Portfolio - Checkpoint HTML</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="#f0f0f0">
+
+  <!-- ================== EN-TÊTE ================== -->
+  <header>
+    <h1>Portfolio de Missaoui Hadjer</h1>
+    <p id="sous-titre">Infographiste & Développeuse Web en formation</p>
+
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#work">Travail</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================== ACCUEIL ================== -->
+  <section id="accueil">
+    <h2>Bienvenue sur mon Portfolio</h2>
+    <p>Découvrez mes projets, mon parcours et mes coordonnées de contact.</p>
+  </section>
+
+  <!-- ================== À PROPOS ================== -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>
+      Infographiste et développeuse front-end passionnée par la création visuelle et le design numérique.<br>
+      Je combine créativité et compétences techniques pour concevoir des solutions graphiques modernes et des sites web professionnels.<br> 
+      Dynamique, organisée et ouverte à l’apprentissage, je cherche à mettre mes compétences au service de projets innovants et esthétiques.
+
+    </p>
+
+    <img src="photo.webp" alt="Photo de profil">
+
+    <h3>Vidéo de présentation</h3>
+    <iframe 
+      width="320"
+      height="240"
+      src="https://www.youtube.com/embed/-u3vE84Wo_U">
+      
+      Votre navigateur ne supporte pas la lecture de vidéos.
+    </iframe>
+    <br><br>
+    <h3>Audio de fond</h3>
+    <audio controls>
+      <source src="no-copyright-music-388290.mp3" type="audio/mpeg">
+      Votre navigateur ne supporte pas la lecture audio.
+    </audio>
+  </section>
+
+  <!-- ================== TRAVAIL ================== -->
+  <section id="work">
+    <h2>Mes Projets</h2>
+    <p>Voici quelques-uns de mes travaux récents :</p>
+
+    <table border="1">
+      <tr>
+        <th>Projet</th>
+        <th>Description</th>
+        <th>Lien</th>
+      </tr>
+      <tr>
+        <td>Logo Visio Safe</td>
+        <td>Création du logo et de la charte graphique</td>
+        <td><a href="#" target="_blank" rel="noopener noreferrer">Voir</a></td>
+      </tr>
+      <tr>
+        <td>Site Axavision</td>
+        <td>Conception du site web sous WordPress</td>
+        <td><a href="#" target="_blank" rel="noopener noreferrer">Voir</a></td>
+      </tr>
+      <tr>
+        <td>Packaging Polyrec</td>
+        <td>Modélisation 3D et rendu graphique</td>
+        <td><a href="#" target="_blank" rel="noopener noreferrer">Voir</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ================== CV ================== -->
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <p>Vous pouvez télécharger mon CV en cliquant sur le lien ci-dessous :</p>
+    <a href="Missaoui Hadjer.pdf" target="_blank" rel="noopener noreferrer">📄 Télécharger mon CV</a>
+  </section>
+
+  <!-- ================== CONTACT ================== -->
+  <section id="contact">
+    <h2>Me Contacter</h2>
+    <form>
+      <label>Nom :</label><br>
+      <input type="text" name="nom" required><br><br>
+
+      <label>Email :</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Message :</label><br>
+      <textarea name="message" rows="5" cols="40"></textarea><br><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+  </section>
+
+  <!-- ================== PIED DE PAGE ================== -->
+  <footer>
+    <p>© 2025 Missaoui Hadjer — Tous droits réservés</p>
+    <p><a href="#accueil">Retour en haut</a></p>
+  </footer>
+
+</body>
+</html>
